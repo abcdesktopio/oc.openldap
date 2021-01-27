@@ -1,8 +1,6 @@
 name: Update oc.openldap
 
 on:
-  repository_dispatch:
-    types: dispatch-from-webModules
   push:
     branches:
       - main
