@@ -33,6 +33,8 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
+          file: oc.openldap
           push: true
           tags: |
             abcdesktopio/oc.openldap:dev
+
